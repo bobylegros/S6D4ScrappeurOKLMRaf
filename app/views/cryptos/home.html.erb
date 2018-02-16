@@ -1,0 +1,8 @@
+
+
+
+<%= form_tag("/search", method: :get) do %>
+  <%= label_tag("Selectione ta Crypto:") %>
+  <%= select_tag(:recherche, options_for_select(@infos.collect{|symbol| symbol})) %>
+  <%= submit_tag("Go!") %>
+<% end %>

@@ -3,8 +3,10 @@ source 'https://rubygems.org'
 # authentification
 # gem 'devise'
 #gem 'pundit'
-#gem 'themoviedb-api'
-#gem 'dotenv'
+
+# gem 'open-uri'
+gem 'nokogiri'
+gem 'dotenv'
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
